@@ -251,8 +251,8 @@ if(window.location.pathname == '/product_detail.html'){
             `;
             product_container.appendChild(el);
         });
-        // console.error('123');
+        console.error('123');
     } else {
-        // console.error('Element with class "products-card-container" not found');
+        console.error('Element with class "products-card-container" not found');
     }
 }
