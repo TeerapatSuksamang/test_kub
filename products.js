@@ -177,7 +177,7 @@ const product_list = {
 
 console.log(window.location.pathname.split('/').pop());
 
-if(window.location.pathname.split('/').pop() == '/product_detail.html'){
+if(window.location.pathname.split('/').pop() == 'product_detail.html'){
     const img_slider = document.getElementById('img_slider');
     if(product_list[product_key]) {
         const product = product_list[product_key];
