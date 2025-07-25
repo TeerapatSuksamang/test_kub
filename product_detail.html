@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.U. FOOD PRODUCTS </title>
+    <meta name="description" content="S.U. FOOD PRODUCTS - Pure Fruit Ice Cream made from 100% fresh ingredients. Experience the perfect blend of natural fruit flavors and premium quality.">
+    <link rel="icon" href="img/logo.png" type="image/png">
+
+    <meta property="og:title" content="S.U. FOOD PRODUCTS">
+    <meta property="og:description" content="Pure Fruit Ice Cream made from 100% fresh ingredients. Experience the perfect blend of natural fruit flavors and premium quality.">
+    <meta property="og:image" content="img/share-image.jpg">
+    <!-- <meta property="og:url" content=""> -->
+    <meta property="og:type" content="website">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+    <script src="https://kit.fontawesome.com/739287037b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md sticky-top navbar-dark" id="dynamic-nav"></nav>
+
+    <section class="container product-detail">
+        <a href="products.html" >
+            <i class="fa-solid fa-arrow-left"></i>
+            Back to Products
+        </a>
+
+        <p class="text-center h3 blockquote-footer mt-5" id="product_error">
+            ขออภัย ไม่พบสินค้า
+        </p>
+        
+        <div class="row" id="product_container">
+            <div class="col-lg-7">
+                <div class="swiper-container product-detail-slider">
+                    <div class="swiper-wrapper" id="img_slider">
+                        <!-- <div class="swiper-slide">
+                            <img src="img/sorbet/sorbet-3.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/sorbet/sorbet-2.jpg" alt="">
+                        </div> -->
+                    </div>
+
+                    <div class="swiper-pagination text-start px-3 swiper-pagination-fraction swiper-pagination-horizontal">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-5">
+                <h2 id="product_name"></h2>
+                <p id="product_type"></p>
+                <h5 id="product_detail"></h5>
+                <ul id="list_detail"></ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="" id="dynamic-footer"></section>
+
+
+    <script src="script.js"></script>
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="products.js"></script> 
+</body>
+
+</html>
